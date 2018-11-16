@@ -1,7 +1,4 @@
-I am applying to graduate school to explore how best to physically implement computation
-and how best to pass on what I learn to others. As physical devices get pushed to
-their limits, new design paradigms have begun to emerge across the spectrum of hardware
-architectures. This spectrum spans from prominent software-programmable devices, such
+This spectrum spans from prominent software-programmable devices, such
 as many-core CPUs and modern GPUs, to hardware-programmable technologies such as
 FPGAs. I am fascinated with the design challenges inherent in these and other types of
 devices and want to contribute to meeting these challenges. My eventual goal is to share
