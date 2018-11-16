@@ -1,16 +1,4 @@
-I am applying to graduate school to explore how best to physically implement computation
-and how best to pass on what I learn to others. As physical devices get pushed to
-their limits, new design paradigms have begun to emerge across the spectrum of hardware
-architectures. This spectrum spans from prominent software-programmable devices, such
-as many-core CPUs and modern GPUs, to hardware-programmable technologies such as
-FPGAs. I am fascinated with the design challenges inherent in these and other types of
-devices and want to contribute to meeting these challenges. My eventual goal is to share
-what I learn with others, as a professor. Discovery and education are equally important
-at a time when computer science as a field is advancing a great deal. I want to contribute
-to this ongoing revolution by learning about different ways to physically implement computation,
-while giving back to the current and next generation as an educator.
-How to implement computation involves design decisions from the application to
-the hardware architecture level. As non-parallel CPU performance is no longer scaling
+As non-parallel CPU performance is no longer scaling
 with time, these devices are evolving to support higher core counts and more elaborate
 system interconnects. I want to learn how these next-generation compute engines can
 be designed to support next-generation applications. Furthermore, I would like to study
