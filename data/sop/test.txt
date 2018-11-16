@@ -1,0 +1,251 @@
+I am applying to graduate school to explore how best to physically implement computation
+and how best to pass on what I learn to others. As physical devices get pushed to
+their limits, new design paradigms have begun to emerge across the spectrum of hardware
+architectures. This spectrum spans from prominent software-programmable devices, such
+as many-core CPUs and modern GPUs, to hardware-programmable technologies such as
+FPGAs. I am fascinated with the design challenges inherent in these and other types of
+devices and want to contribute to meeting these challenges. My eventual goal is to share
+what I learn with others, as a professor. Discovery and education are equally important
+at a time when computer science as a field is advancing a great deal. I want to contribute
+to this ongoing revolution by learning about different ways to physically implement computation,
+while giving back to the current and next generation as an educator.
+How to implement computation involves design decisions from the application to
+the hardware architecture level. As non-parallel CPU performance is no longer scaling
+with time, these devices are evolving to support higher core counts and more elaborate
+system interconnects. I want to learn how these next-generation compute engines can
+be designed to support next-generation applications. Furthermore, I would like to study
+how novel architectures can support different applications sharing similar computational
+needs. Novel architectures can theoretically build on any idea taken from general-purpose
+compute engines to fully custom accelerators. I believe that the optimal solution will find
+common ground between the two. Moreover, I believe that with parallelism becoming
+ubiquitous, applications will again drive design at the hardware architecture level. To
+match physical computation to applications, one must consider the entire design space
+between traditional generalized architectures and fully custom accelerators.
+Attempting to occupy the space between general-purpose architectures and custom
+accelerators brings to mind several questions. The first is how to architect devices to carry
+out computation that best fits the needs of various families of applications. The second
+is to what degree, when a device cannot meet the demands of some of its applications,
+other means of computation can be introduced to better meet design criteria. I want to
+consider the entire hardware architecture spectrum to answer this family of questions:
+how best to implement computation when it can change dramatically in form, given
+different applications.
+During my undergraduate career, research experience has given me the background
+to explore these problems in more depth as a graduate student. This year, I have been
+working with Professors John Wawrzynek (U.C. Berkeley) and Garry Nolan (Stanford
+University) to create an FPGA-based accelerator for learning cell signaling network structure.
+The overall purpose of the approach is to provide a human-interpretable map of how
+cancer cells process information, and in so doing grow beyond their healthy confines or
+resist drug treatment. According to Dr. Nolan and his colleagues that I have interacted
+with, this will allow researchers to create novel diagnostics or guide therapeutic advances
+for patients. Mapping this problem to hardware is desirable because the learning algorithm’s
+complexity is super-exponential with the number of interrelated proteins in a cell.
+One of my contributions to the project was to optimize a computationally expensive part
+of the algorithm, built on an FPGA. Given that we were designing to a specific algorithm,
+our design could achieve speedup by taking advantage of both micro-architectural
+optimizations, such as parallelism and multi-threading, and characteristics of the FPGA
+fabric itself. By designing with both the application and device in mind, we were able to
+develop a highly optimized solution to an important problem in systems biology.
+Working on the signaling networks project has had a great impact on me as a student
+and a researcher. The project has given me a broader perspective on my work as a
+computer scientist and how it is relevant beyond computer science as a field. I have
+seen how it is desirable to take a theoretical advance in multiple fields and apply what
+was learned to a real world problem, that would otherwise (according to Dr. Nolan and
+his team) be stuck in low gear because of computational limitations. Specifically, fields
+involved include systems biology, statistics, and computer science. I recently gave a talk
+on the project1 at the Gigascale Systems Research Center (GSRC). Giving the talk, and
+seeing how the audience responded to it, inspired me. Working on this project has shown
+me that research is about answering questions that we care about as a civilization.
+Given the hardware architecture spectrum, and different problems which motivate its
+growth, a question of great personal importance is how best to communicate these concepts
+to others. Consistent with a research movement led by the U.C. Berkeley ParLab,
+one approach is to describe complex systems in terms of design patterns.2 A design pattern
+describes a certain type of problem or family of computation, and points to known
+techniques used to implement that computation. I have had the privilege to teach lower
+schoolers, middle schoolers, high schoolers, and college students across a range of subjects
+in the past and all have been able to learn from, and relate to, patterns. I have
+found this to be especially true in teaching students about computer science, as design
+patterns allow complex systems to be decomposed by algorithm and execution model. As
+a teaching assistant for an introduction to digital design class, for example, I was able to
+discuss complex micro-architectures by reducing them to concepts, or patterns, relevant
+to digital design. In my opinion, discovering how best to explain computation is just as
+important as learning how to implement it.
+Exploring the spectrum of hardware architectures requires expertise and dedication
+from many disciplines in computer science. Berkeley’s demonstrated commitment to both
+applications and hardware architecture, as well as its exemplary faculty make it the ideal
+environment for me to conduct my graduate study. In the realm of computer architecture,
+I feel that I would be able to learn a great deal if given the opportunity to work with
+Professor XX. Professor XX’s architectural vision, as was proposed this semester, along
+with his take on hardware design in the form of patterns, is very important amidst the
+transition to the many-core architectures that I have discussed. I would also be very
+interested in working with Professor YY. I’ve known Professor YY from the perspective
+of a student, teacher, and researcher. Just recently, he announced a fast-paced vision
+which (I have to say) was very exciting to be a part of. Professor YY interests in a
+variety of platforms, and the paths that can be drawn between them, illustrate a new
+way for me to think about the material that I want to work on, looking forward. While
+I have mentioned several faculty whose work is particularly interesting, I look forward to
+getting a closer look at several other research teams in which to potentially pursue Ph.D.
+research. I realize that at the end of the day, I have to choose one or two project areas.
+Regardless, I hope that these areas can be in an interdisciplinary environment that helps
+drive innovation. In summary, my goals as a graduate student are to research novel hardware architectures
+in order to solve next-generation problems and to learn how best to communicate
+these challenges and proposed solutions to others. Looking back as a teacher, one challenge
+continues to be emphasizing the connection between the application and device.
+There is pedagogical value in decoupling the two, as doing so favors development simplicity.
+I believe, however, that even high level developers must always keep their underlying
+platform in mind. As computation evolves to match device capabilities and different applications’
+needs, only in respecting both domains will we be able to continue the trend
+of high-performance over time. Looking forward, I am excited to have the opportunity
+to contribute to addressing this challenge.
+I have a dream: To create or do something that will affect everyone’s life. After examining various areas 
+of research in computer science engineering, I zeroed in on Natural language processing. This is that branch of AI where the machine is made to process and understand human language hence using it for diverse applications. The applications are so many that this field has the potential to make a difference in everyone’s life. Language is something that is not common to everyone in this world. This can make information a prerogative for people speaking a widely used language, hence alienating others in this age of information explosion. Machine translation with the help of natural language processing is the tool for giving people of different languages access to the wealth of unlimited information available. Imagine a student from a remote area of this world who is genuinely interested in gaining knowledge from a resource on the web, but cannot do so because he cannot understand any language other than his native language. Nothing can be a better gift for him than a language converter tool using which he can automatically translate these pages into his language and read them. 
+Machine translation has been my focus of research for the past two years. I have been pursuing my undergraduate degree in computer science engineering specializing in natural language processing. I have been a research assistant in both my semesters during the senior year here at the Language technologies research centre (LTRC), IIIT Hyderabad. LTRC is the pioneering research centre in India in the field of natural language processing. ‘Shakti’, the English to Hindi machine translation system developed here is one of the best of its kind. In my junior undergraduate year, I worked on Identification of phrasal verbs using a lexicon based approach and later on resolution of ambiguities in identification of phrasal verbs. I implemented a new algorithm to improve the performance of this module and it has given good results. It was then that I got an opportunity to be a student volunteer at the International conference on natural language processing (ICON-2004) which was held at Hyderabad. Here, I made it a point to attend all the talks and sessions and interact with the best in the field. It opened a world of research for me and I was sure that this is the field I want to work in as it had the potential of making my dream come true. 
+I love to take up challenges and believe in doing something new and creative. Hence I have enjoyed working in inter-disciplinary areas as well. Now in my senior year, I have diversified and am working on ‘Unsupervised learning of morphological analyzers for inflectionally rich languages’ as my major project. This project applies machine learning techniques to language processing. Morphological analyzers are an important part of machine translation systems. Training a machine to increase the coverage of the language data (which forms the back end of a morph analyzer) is difficult for Indian languages which are inflectionally rich. Machine learning is a challenging area and in my project, I go one step further by designing and implementing an algorithm for rule-learning. This project is expected to yield a research paper on completion. 
+I have always put in an extra effort in becoming a better and a well rounded person. Be it academics or extra-curricular activities, I have always given a job the maximum effort from my side if it interests me. I work with unending passion and dedication to whatever I am committed to. I believe in team work and there are amazing things that a team can effect if led properly. I am known for my all-round capabilities right through school and college and have proven myself as a good leader. I have worked as a teaching assistant as well, for the same course in two successive semesters. It was then that I enjoyed the joys of teaching first hand and my students were quite happy with what they learnt from me. After the research that I have done till date, I can surely say that pursuing research of a higher order in my graduate studies is my aim and passion. The immense opportunities and the myriad facilities at University of Colorado which include state of the art laboratories, research centers and excellent faculty propels me to be a part of it and add  value to it through my own efforts. I plan to apply for an M.S degree in the fall semester and will positively take a decision on continuing for a PhD at a later stage.  This is because I want to have an exact focus on my PhD topic which I plan to take up after some initial research.
+Cognitive computing gives people super powers. Augmenting our intelligence with machine intelligence gives us the ability to predict the future and make the best decisions possible. As the field of machine intelligence progresses, more and more super-human abilities become available to us. I am out to bring these super powers to the masses through cognitive computing products and services. Attending Georgia Tech would be an excellent catalyst to help me achieve this.
+I currently architect and develop web services and full-stack applications. My goal is to start working full-time on interactive applications that exhibit human-like intelligence. One way to make these applications intelligent is to have them consume machine learning and cognitive computing web services. These services could be custom built by me or provided by SaaS APIs like Microsoft Cognitive Services or IBM Watson Services. To apply the best cognitive services to a given problem, I need a deep understanding of their underlying algorithms and techniques. I also need to learn how to architect applications and services for scale.
+
+The front-end development skills I have learned so far are targeted at building typical web app and native app user interfaces. Moving forward, I plan to focus more on natural language and brain-computer interfaces. With the power of machine learning, natural language processing, and data, I could create user experiences that are contextually, socially, and even emotionally-aware.
+
+Georgia Tech's Online Master of Science in Computer Science provides courses that would teach me how to best integrate machine intelligence into my applications. The Knowledge-Based Artificial Intelligence course is a perfect overview of how to create cognitive systems. The course in Machine Learning would teach me how to apply the right algorithms and models to the right problems. The multiple courses on Algorithms, Complexity, and High-Performance Computing would teach me how to optimize and scale my applications. Each of these courses covers an essential component to implementing intelligent web services in production applications.
+
+The Specialization in Interactive Intelligence completely aligns with my desire to become a cognitive computing expert. There are several courses in this specialty that would help me create user experiences that exhibit human-level intelligence. The course on Natural Language would help me incorporate natural language understanding features into my applications. The special topic in Computational Creativity would help my applications be more expressive and adaptive. When I first saw this specialty, I immediately knew it was a great fit.
+
+The Georgia Tech Online Masters in Computer Science is my first choice for many reasons. Besides the awesome courses that are available at Georgia Tech, there is a ton of groundbreaking research being performed by world renowned professors there. I would love to work with Professor Charles Isbell and the rest of the pfunk research group in The Laboratory for Interactive Artificial Intelligence. Their research spans many areas I am interested in including interactive entertainment, deep learning, and computational neuroscience. In addition to these points, the program hit the top of my list because it is affordable, online, and produced by one of the world’s best ranking universities.
+
+Driven by the many challenging problems society is facing, I want to use my skills and knowledge to help people live amazing lives. I strive to make the most positive impact on existence as possible. I plan to use machine learning and natural language processing to improve the health, performance, and productivity of people. Leveraging data, I want to create software to help people live the most impactful lives possible. I want to bring unprecedented capabilities to people by extending their minds into cognitive computing systems. This graduate program would be a core part of my strategy to meet these goals.
+While at the National Taiwan University, I studied computer science broadly. I ranked
+among the top 10 percent in almost all computer science courses and especially excelled
+in theoretical and graduate-level courses. Knowing that some computer science fields
+require a strong background in mathematics, I chose to pursue a minor in mathematics.
+Furthermore, I interned at companies and participated in projects in research institutions
+to learn the practical aspects of computer science. All these experiences convinced me
+that my interests lie within applicable ideas that have a strong theoretical foundation. I
+especially enjoyed machine learning theories and their applications in natural language
+processing and computer vision. I have completed projects, won contests, and published
+papers in the field of machine learning. I hope to pursue a PhD and continue my studies
+in related fields of machine learning.
+When I was a sophomore, I joined the Language Technology Lab led by Prof. ZhaoMing
+Gao, and worked mainly on a Chinese text chunking system. In the system, I
+implemented grammar-based methods to generate features from text, and then learned
+a model by a supervised classifier named yamcha. Realizing the advantage and power of
+support vector machines (SVMs) through the experiences, I joined the group that designs
+the best SVM software, Machine Learning Group led by Prof. Chih-Jen Lin. After joining
+the group, I have gained a strong grasp in theories and applications of machine learning.
+I have written and maintained several pieces of widely-used SVM-based learning tools
+known as LIBSVM TOOLS. Additionally, I have studied optimization and nonlinear
+programming theories. To know how the theories can be applied, I worked on coordinate
+descent variants to solve SVM and logistic regression models, and conducted experiments
+using data in various domains to support the theoretical convergence bound for the
+numerical methods. Moreover, my experiences on different data and models inspired
+me to build applications on text classification and active learning. My colleagues and I
+won the Cloud Computing Contest held by TrendMicro from about 100 domestic teams
+by proposing a parallel relevant ranking algorithm implemented in Hadoop for ranking
+malicious level of websites. I proposed a accurate and efficient active learning method in
+my co-authored papers published in IJCNN and workshop proceedings of JMLR.
+To gain further insight into the applications in machine learning, I interned at Siemens
+Corporate Research (SCR) in Princeton, NJ, for six months. My project’s objective was
+to predict when and where a potential failure would happen on a turbine using data
+collected from multiple sensors. I investigated how methods like Gaussian mixture model,
+support vector regression, and k-means can be applied to predict data values in a time
+series. I also partitioned the database appropriately so that the data processing time was
+100 times faster than it had been. The most enjoyable part at SCR was talking to the
+researchers about their research and projects. They frequently gave me ideas on how to
+improve my project; I was glad to have help them likewise. In my leisure time, I helped
+a computer vision group at SCR review papers, and discovered how machine learning is
+widely applied in computer vision.
+I would like to introduce a few attributes about me that display my personality and
+my preferred style of working. Firstly, I like to try my own hands at solving problems
+before consulting others. In my opinion, some great original ideas may be lost if I
+consult others immediately upon encountering a problem. For instance, the winning
+strategy on the Active Learning Challenge (see my resume) is actually the first thought
+that entered my mind before surveying papers and books. Secondly, I enjoy teaching,
+which is a wonderful way to strengthen my knowledge. I led several study groups with
+my classmates to discuss advanced materials not taught in our courses. Furthermore, I
+was selected to be a TA in calculus in my senior year. Rare undergrads were given the
+occupation, even for mathematics majors. Thus, I treasured the opportunity and worked
+extremely hard to make seemingly tough calculus tractable. While preparing teaching
+materials and grading homework, problems in my thinking were often revealed and this
+gave me a chance to improve. My teaching experiences gave me a solid foundation on
+various subjects, especially mathematics, and trained me to write easy-to-understand
+slides, documents and reports. Finally, I am a strong implementer already familiar
+with many software development technologies and tools. I have spent my spare time
+learning implementation techniques from web-resources and experienced members from
+institutions and companies.
+My ultimate research goal is to build useful theorems and software applied easily and
+widely. For me, theorems, especially mathematical models and proofs, are intrinsically
+fun and give us confidence to work successfully on applications; while software enables
+people to easily utilize the ideas without understanding the theories. I believe it to be
+one of the fastest ways to make the world advance. That belief motivated me to write
+pieces of LIBSVM TOOLS, to intern at SCR, to participate in contests, and to choose
+my current research projects. My career goal is to be a professor. Via my many years
+of teaching experiences, I am sure that I am enthusiastic to pass down knowledge, and
+excite the next generation of students that will share my passion for this field.
+To achieve my research and career goals, I hope to study in an environment full of
+active learners and creative ideas. The Massachusetts Institute of Technology is famous
+for solid training in mathematics and engineering and for having abundant research
+results in theory and application of machine learning. Thus, I hope to join your PhD
+program to gain further training and to share creative ideas with other researchers.
+I want to pursue a Ph.D. in Computer Science, and my career aspiration is to become
+a professor. My research interests include program analysis, software engineering, operating
+systems, and human-computer interaction (HCI).
+My motivation for pursuing research related to program analysis stems from learning
+about the challenges of software development during 3 summers spent as a software engineering
+intern (1 at Codehost, a start-up, and 2 at Teradyne, a large corporation). Although
+I found the actual development work to be educational, what really sparked my interest in
+research was experiencing first-hand the challenges that software engineers face daily.
+I aspire to create tools that can increase programmer productivity and improve software
+quality and security. As a first step towards this goal, for the past 2 years I have been working
+with Prof. Michael Ernst in the MIT Program Analysis Group. The research problem that
+my work addresses is the difficulty of building dynamic analysis tools that work reliably
+on large C and C++ programs, due to the presence of complex constructs and the lack
+of memory and type safety. I have developed a framework named Fjalar that enables the
+construction of scalable and robust dynamic analyses for C and C++ programs. It operates
+on unmodified x86 binaries of programs as large as 1 million lines of code, and it provides
+rich language- and machine-level information at run time. I have used Fjalar to build two
+dynamic analysis tools. The first, Kvasir, records a detailed trace of data structure contents
+during execution. The second, DynComp, performs dynamic type inference to find sets of
+related variables whose values interact at run time. My Master’s thesis is based on Fjalar
+and the tools built upon it. I also have experience with static analysis. I am currently
+working on type inference of unit types (e.g., physics units) for C programs.
+My research has been directly applied to several projects and produced visible results.
+Prof. Ernst has used Kvasir to extend the Daikon dynamic invariant detector to analyze
+large C and C++ programs, and he has used DynComp to improve Daikon’s performance
+and the quality of inferred invariants. We collaborated with Prof. Martin Rinard to use
+Daikon together with Kvasir and DynComp to generate constraints for performing run time
+data structure repair. This research was funded by DARPA, and they recently evaluated its
+effectiveness by hiring an external company to try to attack and crash a specific program:
+the Freeciv multiplayer game server. Our repair system successfully protected the server
+from a high percentage of their attacks. In another assessment, we were able to use this
+repair system to mitigate the effects of several real security flaws in the BIND DNS server.
+It is very encouraging to see my research applied to real-world problems.
+Taking an Operating Systems Engineering course has inspired me to explore OS-related
+research. In particular, I am interested in applying program analysis to make low-level
+software such as operating systems more reliable and secure. In addition, I have worked on
+2 research projects that have stimulated my interest in user interfaces and HCI: I created
+a suite of 5 educational games for Palm OS devices for the Teacher Education Program
+(2002-2003) and an image editing tool for the Computer Graphics Group (Fall 2003).
+Although I am open to a variety of research, there are several professors at Stanford whose
+projects are especially appealing to me: Profs. Aiken, Engler, and Lam (program analysis);
+Profs. Fox and Mazieres (OS and distributed systems); Prof. Klemmer (HCI). Studying
+some of these professors’ papers for classes and for my research and reading project websites
+have given me a sense that Stanford’s Ph.D. program is a great match for my interests.
+
+ew areas of my education have stimulated me to think as much as my undergraduate courses in Data Structures, Theory of Computation and Computer Programming have. When I watch videos of Pranav Mistry demonstrating his Sixth Sense technology or when I used Google Wave for the first time or even when I log into Facebook every day and come up with some new feature, what I feel is a sense of marvel. Here are innovations that keep evolving not only technically but also hold infinite scope for creativity and logic. I feel a similar sense of exhilaration when I see my code run successfully. It is this feeling, which till date, drives me to not give up on even the toughest of problems. And it is this love for programming, combined with my desire to dig deeper into the working of various applications and technologies, which propels me to apply for an MS in Computer Science.
+
+
+Pursuing my strong interest in Computer Science has over the years enabled me to develop keen analytical and reasoning skills. Through the course of the four-year Bachelor of Technology (BS) degree program in Computer Science and Engineering at the prestigious ABC University, I acquired an overall perspective of this scientific discipline, with a particular interest in Object Oriented Programming. Data Structures, .NET Technology, Database Management, Theory of Computation and Principles of Compiler Design were some of the other areas that captured my attention. My keen interest in the subjects translated into receiving an A+ grade in the Data structures lab and averaging an A grade in the other labs. I also involved myself in numerous projects, including a prototype of a "Billing and Inventory Management System" for a retail showroom, developed using Visual Basic and SQL Server 2005, and also the simulation of a simple SLR parser using C++ for a Principles of Compiler Design assignment. Proactive in my approach to learning, I have also completed the Cisco Certified Fundamentals of Java Programming course.
+
+
+Apart from the projects undertaken in college, it was my desire to gain exposure to the software industry, and this prompted me to take up various training and internships. In the summer of 2013 and 2014, I spent a week in Germany where I was trained in Basics of Robot Programming, and Offline Robot Programming (using Roboplan V5.00), at Carl Cloos Schweisstechnik. I also completed a project titled "Study on Non-Stock Transaction Monitoring" at L&T Komatsu, Bangalore in May-June 2014.
+
+
+For my final University dissertation, I worked with a team of three other classmates to develop a "Multiparty Voice Chat on Windows Platform". The project was undertaken in L&T Infotech, Bangalore and involved building a low-cost application to enable voice/text chat and file transfer, using .NET technology. The application was intended for in-house communication between peer systems in the organization, thereby removing the need for a dedicated server. This assignment greatly strengthened my conceptual knowledge, and through its practical implementation, it also allowed me to further my expertise through integrating .NET technology and Network programming. In addition to enhancing my .NET skills, I also gained knowledge about multiple architectures in networking and how socket programming works. Till then my coding had been largely restricted to basic C++, and while it was a challenge to learn and implement socket programming in the .NET framework within a short span of 4-5 months, it was one I readily accepted and am richer for it.
+
+
+Simultaneously, active participation in a wide range of extracurricular activities has ensured the all round development of my personality. I have taken part in cultural activities like group dance and literary activities like crossword and Sudoku competitions. I also play badminton as a hobby. Apart from this, I handled the role of being the Student Representative of the Computer Science branch for four years, a responsibility that included acting as the bridge between the students and the administration, scheduling additional lectures for the class, assisting the faculty advisor in her duties and assisting the students in case of any problems. This experience brought to the fore my leadership abilities, while also assisting in honing my social skills.
+
+
+Having acquired a solid foundation in the field of computer science through a rigorous undergraduate program, and my various internships in the IT industry, at this point, I feel that it is the right time to take up graduate studies. I wish to raise my understanding of the nuances of the Computer Science field and use this knowledge to further my chances for a lucrative career in Software. With a keen interest in working on the latest web technologies, I seek to take advantage of the plethora of opportunities in the field of social media which allows the combination of these technologies with one's creative instincts.
+
+
+The MS program in Computer Science offered by the University of Stony Brook will undoubtedly provide me with the right knowledge, skills, and experience to pursue that dream and exploit the opportunities to the fullest extent. The practical orientation of your in-depth coursework will allow me to not only acquire a clear understanding of the subject but also the skills to execute it. I am confident my exposure to such initiatives would quite augment my knowledge base and add tremendous value in enabling me to realize my professional goals 
