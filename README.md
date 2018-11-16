@@ -1,4 +1,4 @@
-# SOP-generator
+# SOP-Generator
 
 A simple LSTM based Statement of Purpose Generator for grad school. 
 
